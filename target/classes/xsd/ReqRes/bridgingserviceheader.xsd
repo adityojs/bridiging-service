@@ -1,0 +1,14 @@
+<orac:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+elementFormDefault="qualified" 
+targetNamespace="http://www.oracle.com"
+xmlns:orac="http://www.w3.org/2001/XMLSchema" 
+xmlns:jxb="https://jakarta.ee/xml/ns/jaxb"> 
+	<orac:element name="AuthenticationHeader">
+		<orac:complexType>
+			<orac:sequence>
+                 	<orac:element name="username" maxOccurs="1" minOccurs="1" type="xs:string" />
+    				<orac:element name="password" maxOccurs="1" minOccurs="1" type="xs:string"/>
+    		</orac:sequence>
+		</orac:complexType>
+    </orac:element>
+</orac:schema>

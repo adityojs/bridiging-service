@@ -1,0 +1,11 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.telkomsel.co.id/ufo/services/bridging-service" 
+xmlns:req="http://www.telkomsel.co.id/ufo/services/bridging-service/request/v1.0"
+ xmlns:res="http://www.telkomsel.co.id/ufo/services/bridging-service/response/v1.0" xmlns:headr="http://www.oracle.com" xmlns:jxb="https://jakarta.ee/xml/ns/jaxb" elementFormDefault="qualified">
+    <xs:import namespace="http://www.telkomsel.co.id/ufo/services/bridging-service/request/v1.0" schemaLocation="ReqRes/bridgingservicerq.xsd"/>
+	<xs:import namespace="http://www.telkomsel.co.id/ufo/services/bridging-service/response/v1.0" schemaLocation="ReqRes/bridgingservicers.xsd"/>
+	<xs:import namespace="http://www.oracle.com" schemaLocation="ReqRes/bridgingserviceheader.xsd"/>
+	
+	
+    
+</xs:schema>

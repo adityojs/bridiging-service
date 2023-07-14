@@ -1,0 +1,15 @@
+<tns:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+xmlns:tns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.telkomsel.co.id/ufo/services/bridging-service/response/v1.0" 
+xmlns:jxb="https://jakarta.ee/xml/ns/jaxb"> 
+	<tns:element name="bridgingservicers">
+		<tns:complexType>
+			<tns:sequence>
+				<tns:element name="status" minOccurs="0" type="xs:boolean"/>
+    			<tns:element name="error_code" minOccurs="0" type="xs:string"/>
+    			<tns:element name="error_message" minOccurs="0" type="xs:string"/>
+    			<tns:element name="trx_id"  minOccurs="0" type="xs:string"/>
+    		</tns:sequence>
+    	</tns:complexType>
+    </tns:element>
+</tns:schema>
